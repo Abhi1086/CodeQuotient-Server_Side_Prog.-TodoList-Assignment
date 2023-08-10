@@ -1,0 +1,48 @@
+<!-- partials header.ejs -->
+<style>
+  /* Navbar styling */
+  nav {
+    background-color: #333;
+    padding: 10px;
+    overflow: hidden;
+  }
+
+  nav a {
+    float:left;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    display: flex;
+  }
+
+  nav a:hover {
+    background-color: #111;
+  }
+
+  nav p{
+     float: right ;
+     text-align: center;
+     padding:14px 16px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+<!-- Navbar -->
+<nav>
+  <a href="/">Home</a>
+  <a href="/contact">Contact</a>
+  <a href="/about">About</a>
+  <a href="/todo">Todo</a>
+   
+
+    <p style="color: white;">Welcome, <%= username %>
+    </p>
+  </header
